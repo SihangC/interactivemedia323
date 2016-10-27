@@ -2,30 +2,84 @@
 	background: white
 }
 h2 {
-	margin: 2px; color: black; font-size:200%; transform: translateX(65%)
+	margin: 2px; 
+	color: black; 
+	font-size:200%; 
+	transform: translateX(65%)
 }
 
 .container {
-	position: relative; margin: 50px auto; width: 70%; top:  50%; transform: translateY(25%)translateX(35%)
+	position: relative; 
+	margin: 50px auto; 
+	width: 70%; top:  50%; 
+	transform: translateY(50%)translateX(35%)
 }
 .block {
 	margin: 2px
 }
 #ann {
-	  WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+	  WIDTH: 40px; 
+	  DISPLAY: inline-block; 
+	  BACKGROUND: red; 
+	  HEIGHT: 40px; 
 }
 #benji {
-	 WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+	 WIDTH: 40px; 
+	 DISPLAY: inline-block; 
+	 BACKGROUND: red; 
+	 HEIGHT: 40px; 
 }
-#stephanie { width: 80px; height: 80px; background: blue; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; DISPLAY: inline-block; 
+#stephanie { 
+	width: 80px; 
+	height: 80px; 
+	background: blue; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	DISPLAY: inline-block; 
 }
 #emily {
-	WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px;
+	width: 40px;
+	display: inline-block; 
+	background: red; 
+	height: 40px;
 }
 #jeff {
-	WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+	WIDTH: 40px; 
+	DISPLAY: inline-block; 
+	BACKGROUND: red; 
+	HEIGHT: 40px; 
 }
 #manage {
-	BORDER-BOTTOM: #707070 1px solid; BORDER-LEFT: #707070 1px solid; WIDTH: 600px; HEIGHT: 35px; BORDER-TOP: #707070 1px solid; TOP: 50%; BORDER-RIGHT: #707070 1px solid; transform: translateY(100%)translateX(-30%)
+	BORDER-BOTTOM: dodgerblue 1px solid; 
+	BORDER-LEFT: dodgerblue 1px solid; 
+	WIDTH: 630px; HEIGHT: 35px; BORDER-TOP: dodgerblue 1px solid; 
+	TOP: 50%; 
+	BORDER-RIGHT: dodgerblue 1px solid; 
+	transform: translateY(100%)translateX(-35%)
 }
- 
+#lalala {
+	width: 60px; 
+	background: dodgerblue; 
+	height:25px; 
+	transform: translateY(-1490%)translateX(1100%) 
+ }
+#hahaha {
+	width: 95px; 
+	background: dodgerblue; 
+	height:37px; 
+	transform: translateY(-68%)translateX(380%) 
+
+ }
+ #KKK {
+ 	width: 80px;
+ 	height: 80px;
+ 	background:dimgray;
+ 	transform: translateY(650%)translateX(-300%)
+ }
+#LLL {
+ 	width: 80px;
+ 	height: 80px;
+ 	background:dimgray;
+ 	transform: translateY(550%)translateX(-30%)
+ }
