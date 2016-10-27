@@ -1,0 +1,31 @@
+ body {
+	background: white
+}
+h2 {
+	margin: 2px; color: black; font-size:200%; transform: translateX(65%)
+}
+
+.container {
+	position: relative; margin: 50px auto; width: 70%; top:  50%; transform: translateY(25%)translateX(35%)
+}
+.block {
+	margin: 2px
+}
+#ann {
+	  WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+}
+#benji {
+	 WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+}
+#stephanie { width: 80px; height: 80px; background: blue; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; DISPLAY: inline-block; 
+}
+#emily {
+	WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px;
+}
+#jeff {
+	WIDTH: 50px; DISPLAY: inline-block; BACKGROUND: red; HEIGHT: 50px; 
+}
+#manage {
+	BORDER-BOTTOM: #707070 1px solid; BORDER-LEFT: #707070 1px solid; WIDTH: 600px; HEIGHT: 35px; BORDER-TOP: #707070 1px solid; TOP: 50%; BORDER-RIGHT: #707070 1px solid; transform: translateY(100%)translateX(-30%)
+}
+ 
