@@ -1,0 +1,17 @@
+
+p{
+	font-size: 300PX;font-family: Times New Roman; letter-spacing: 150PX; text-align:center;background: gray
+}
+body{
+	position: relative;background: black
+}
+.no1{
+	position:relative;
+left:60px; bottom: 400px; text-align: center; color: white
+}
+.winter{
+	font-family: Brisa; color: white; font-size:100px
+}
+.spring{
+	font-family: Brisa; color: white; font-size:100px;text-align: right;position: relative; left:-60px; bottom: 1150px;
+}

@@ -1,0 +1,111 @@
+h6
+{
+-moz-column-count:3;
+-webkit-column-count:3; 
+column-count:3;
+}
+body{
+	background: gray
+}
+.right01{
+  animation-name: shake;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right02{
+  animation-name: shake;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right03{
+  animation-name: shake;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right04{
+  animation-name: shake;
+  animation-duration:8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right05{
+  animation-name: shake;
+  animation-duration:9s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right06{
+  animation-name: shake;
+  animation-duration:10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right07{
+  animation-name: shake;
+  animation-duration:11s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right08{
+  animation-name: shake;
+  animation-duration:12s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right09{
+  animation-name: shake;
+  animation-duration:13s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right10{
+  animation-name: shake;
+  animation-duration:14s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right11{
+  animation-name: shake;
+  animation-duration:15s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right12{
+  animation-name: shake;
+  animation-duration:16s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right13{
+  animation-name: shake;
+  animation-duration:17s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.right14{
+  animation-name: shake;
+  animation-duration:18s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, ,90%,90%,90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(100px, 0, 0);
+  }
+}
+
+.shake {
+  animation-name: shake;
+}
+.right{color: white;}

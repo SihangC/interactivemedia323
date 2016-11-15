@@ -1,0 +1,15 @@
+.bag{
+	color: gray; text-align: center; font-family: times; font-size: 30px
+}
+.no1{
+	text-align: center;
+}
+.right{
+	position: absolute; left: 370PX; color: NavajoWhite;font-size: 70px; text-align: right;
+}
+.left{ 
+	position: relative;text-align: right;color: NavajoWhite;font-size: 70px;right: 220PX; bottom: -90PX
+}
+H3{
+	background: yellow; letter-spacing: 50px;text-align: center;
+}

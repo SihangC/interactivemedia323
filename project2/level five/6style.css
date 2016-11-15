@@ -1,0 +1,20 @@
+
+a{
+	text-decoration: none;
+}
+a.one:hover,a.one active {font-size:1600%;}
+a.two:hover,a.two active {font-size:1500%;}
+a.four:hover, active {font-size:1400%;}
+a.five:hover, active {font-size:1300%;}
+a.six:hover, active {font-size:1200%;}
+a.seven:hover, active {font-size:1100%;}
+a.eight:hover, active {font-size:1000%;}
+a.nine:hover, active {font-size:900%;}
+a.ten:hover, active {font-size:800%;}
+a.oneone:hover, active {font-size:700%;}
+a.onetwo:hover, active {font-size:600%;}
+a.onethree:hover, active {font-size:500%;}
+a.onefour:hover, active {font-size:400%;}
+a.onefive:hover, active {font-size:300%;}
+a.onesix:hover, active {font-size:200%;}
+a.three:hover, active {font-size:1200%;}

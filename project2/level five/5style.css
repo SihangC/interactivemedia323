@@ -1,0 +1,140 @@
+body{
+	background: gray
+}
+.one{
+
+  animation-name: bounceOutDown;
+  animation-duration: 80s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.two{
+
+  animation-name: bounceOutDown;
+  animation-duration: 90s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.three{
+
+  animation-name: bounceOutDown;
+  animation-duration: 100s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.four{
+
+  animation-name: bounceOutDown;
+  animation-duration: 110s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.five{
+
+  animation-name: bounceOutDown;
+  animation-duration: 120s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.six{
+
+  animation-name: bounceOutDown;
+  animation-duration: 130s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.seven{
+
+  animation-name: bounceOutDown;
+  animation-duration: 140s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.eight{
+
+  animation-name: bounceOutDown;
+  animation-duration: 150s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.nine{
+
+  animation-name: bounceOutDown;
+  animation-duration: 160s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.ten{
+
+  animation-name: bounceOutDown;
+  animation-duration: 170s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.oneone{
+
+  animation-name: bounceOutDown;
+  animation-duration: 180s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.onetwo{
+
+  animation-name: bounceOutDown;
+  animation-duration: 190s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.onethree{
+
+  animation-name: bounceOutDown;
+  animation-duration: 200s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.onefour{
+
+  animation-name: bounceOutDown;
+  animation-duration: 210s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.onefive{
+
+  animation-name: bounceOutDown;
+  animation-duration: 220s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.onesix{
+
+  animation-name: bounceOutDown;
+  animation-duration: 220s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes bounceOutDown {
+  20% {
+    transform: translate3d(0,1000px , 0);
+  }
+
+  40%, 45% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+}
+
+.bounceOutDown {
+  animation-name: bounceOutDown;
+}
+div{
+  font-family: times; background: yellow; font-size: 15px
+}
+p{
+  font-size: 50px; color: white
+}

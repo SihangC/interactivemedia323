@@ -1,0 +1,47 @@
+#no1 { text-align: left;
+
+	    border: 5px dotted black;
+
+	    width: 100%;border-style: solid;
+}
+#no2{
+text-align: right;
+border: 1px dotted black;width: 100%;
+}
+#no3 {
+	 text-align: left;
+
+	    border: 5px dotted black;
+
+	    width: 100%;border-style: solid;
+}
+#no4{
+	text-align: right;
+border: 1px dotted black;width: 100%;
+}
+#no10{
+	text-align: left;
+
+	    border: 5px dotted black;
+
+	    width: 100%;border-style: solid;
+}
+#no5{
+	text-align: right;
+border: 1px dotted black;width: 100%;
+}
+#no6{text-align: left;
+
+	    border: 5px dotted black;
+
+	    width: 100%;border-style: solid;
+
+}
+#no7 {border-top-style:dashed}
+#no9{
+	text-align: center;
+17
+	    border: 1px dotted black;
+18
+	    width: 100%;
+}
