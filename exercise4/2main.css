@@ -1,0 +1,211 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+	color:#fff;
+	font-size:24px;
+	padding-top:28px;
+}
+.container{ width:500px; position:relative; height:500px; margin-left:200px;}
+.triangle01{ position:absolute; left:0; top:0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #9cabc1;
+    border-right: 100px solid transparent;
+}
+.triangle01 .number{ position:absolute; left:5px; top:-95px;}
+.triangle02{ position:absolute; left:100px; top:0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f1d0ce;
+    border-left: 100px solid transparent;
+	}
+.triangle02 .number{ position:absolute; left:-20px; top:-95px;}
+.triangle03{ position:absolute; left:200px; top:0;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-left: 100px solid transparent;
+	}
+.triangle03 .number{ position:absolute; left:-20px; top:70px;}
+.triangle04{ position:absolute; left:300px; top:0;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #e4e8eb;
+    border-right: 100px solid transparent;
+	}
+.triangle04 .number{ position:absolute; left:10px; top:70px;}
+.triangle05{ position:absolute; left:400px; top:0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f3e8e2;
+    border-left: 100px solid transparent;
+}
+.triangle05 .number{ position:absolute; left:-20px; top:-95px;}
+.triangle06{ position:absolute; left:0; top:100px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #e4e8eb;
+    border-left: 100px solid transparent;
+}
+.triangle06 .number{ position:absolute; left:-20px; top:-95px;}
+.triangle07{ position:absolute; left:100px; top:100px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-right: 100px solid transparent;
+}
+.triangle07 .number{ position:absolute; left:10px; top:70px;}
+.triangle08{ position:absolute; left:200px; top:100px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f3e8e2;
+    border-right: 100px solid transparent;
+}
+.triangle08 .number{ position:absolute; left:5px; top:-95px;}
+.triangle09{ position:absolute; left:300px; top:100px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #9cabc1;
+    border-left: 100px solid transparent;
+}
+.triangle09 .number{ position:absolute; left:-20px; top:70px;}
+.triangle10{ position:absolute; left:400px; top:100px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f1d0ce;
+    border-left: 100px solid transparent;
+}
+.triangle10 .number{ position:absolute; left:-30px; top:-95px;}
+.triangle11{ position:absolute; left:0; top:200px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-right: 100px solid transparent;
+}
+.triangle11 .number{ position:absolute; left:10px; top:70px;}
+.triangle12{ position:absolute; left:100px; top:200px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f1d0ce;
+    border-right: 100px solid transparent;
+}
+.triangle12 .number{ position:absolute; left:5px; top:-95px;}
+.triangle13{ position:absolute; left:200px; top:200px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #e4e8eb;
+    border-right: 100px solid transparent;
+}
+.triangle13 .number{ position:absolute; left:10px; top:70px;}
+.triangle14{ position:absolute; left:300px; top:200px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f3e8e2;
+    border-left: 100px solid transparent;
+}
+.triangle14 .number{ position:absolute; left:-30px; top:-95px;}
+.triangle15{ position:absolute; left:400px; top:200px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-right: 100px solid transparent;
+}
+.triangle15 .number{ position:absolute; left:10px; top:70px;}
+.triangle16{ position:absolute; left:0; top:300px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-right: 100px solid transparent;
+}
+.triangle16 .number{ position:absolute; left:10px; top:70px;}
+.triangle17{ position:absolute; left:100px; top:300px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f3e8e2;
+    border-left: 100px solid transparent;
+}
+.triangle17 .number{ position:absolute; left:-30px; top:-95px;}
+.triangle18{ position:absolute; left:200px; top:300px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f1d0ce;
+    border-left: 100px solid transparent;
+}
+.triangle18 .number{ position:absolute; left:-30px; top:70px;}
+.triangle19{ position:absolute; left:300px; top:300px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #e4e8eb;
+    border-right: 100px solid transparent;
+}
+.triangle19 .number{ position:absolute; left:5px; top:-95px;}
+.triangle20{ position:absolute; left:400px; top:300px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #9cabc1;
+    border-right: 100px solid transparent;
+}
+.triangle20 .number{ position:absolute; left:10px; top:70px;}
+.triangle21{ position:absolute; left:0; top:400px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f1d0ce;
+    border-left: 100px solid transparent;
+}
+.triangle21 .number{ position:absolute; left:-30px; top:-95px;}
+.triangle22{ position:absolute; left:100px; top:400px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #9cabc1;
+    border-left: 100px solid transparent;
+}
+.triangle22 .number{ position:absolute; left:-30px; top:-95px;}
+.triangle23{ position:absolute; left:200px; top:400px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #c8d1dc;
+    border-right: 100px solid transparent;
+}
+.triangle23 .number{ position:absolute; left:10px; top:70px;}
+.triangle24{ position:absolute; left:300px; top:400px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #f3e8e2;
+    border-right: 100px solid transparent;
+}
+.triangle24 .number{ position:absolute; left:5px; top:-95px;}
+.triangle25{ position:absolute; left:400px; top:400px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #e4e8eb;
+    border-left: 100px solid transparent;
+}
+.triangle25 .number{ position:absolute; left:-30px; top:70px;}
+.triangl{ width:100px; height:100px;}
+.number{ display:none;}
+.triangl: .number{ display:block;}
+/****/
+/**.back01{ background:#122c39; position:absolute; height:100%; width:100%;}
+.lighthouse{ width:90px; height:300px; position:absolute; left:200px; top:100px; z-index:6;}
+.lighthouse-back{ width:80px; margin-left:5px; background:#d9dbe3; height:300px; border-radius:80px 80px 0 0; padding-top:5px;}
+.lighthouse-back02{ width:60px; margin-left:10px; height:30px; border-radius:80px 80px 0 0; background:#aab7b4;}
+.lighthouse-back03{ width:90px; height:50px; margin-top:5px; background:#6b8c87; margin-left:-5px; padding-left:35px; padding-top:15px;}
+.lighthouse-back04{ width:20px; height:20px; border-radius:50%; background:#fff; padding:2px;}
+.lighthouse-back05{ width:16px; height:16px; border-radius:50%; background:#8a1c21;}
+.lighthouse-back06{ width:90px; height:10px; margin-top:20px; background:#6b8c87; margin-left:-5px;}
+.lighthouse-back07{ width:60px; margin-left:15px; height:30px; border-radius:60px 60px 0 0; background:#8a1c21; margin-top:-45px;} 
+.lighthouse-back08{ width:120px; margin-left:-15px; height:50px; border-radius:120px 120px 0 0; background:#6f5b26; margin-top:-10px;} 
+.back02{ position:absolute; bottom:110px; width:100%; height:25px; left:0; background:#9cabc1; z-index:5;}
+.back03{ position:absolute; bottom:70px; width:100%; height:40px; left:0; background:#c8d1dc; z-index:5;}
+.back04{ position:absolute; bottom:0px; width:100%; height:70px; left:0; background:#e4e8eb; z-index:5;}**/
