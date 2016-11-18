@@ -1,4 +1,6 @@
-
+a{
+	color: white
+}
 p{
 	font-size: 300PX;font-family: Times New Roman; letter-spacing: 150PX; text-align:center;background: gray
 }

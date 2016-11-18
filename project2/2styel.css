@@ -1,0 +1,65 @@
+body{
+	position: relative;
+}
+.container{ width:2500px; position:absolute; height:900px; margin:0 auto; }
+.one{
+	position:absolute;
+right:1375px; top:80px;
+
+}
+.two{
+	position:absolute;
+right:1375px;
+top:210px;
+}
+.three{
+	position:absolute;
+right:1375px;
+top:325px;
+
+
+}
+.four{
+	position:absolute;
+right:1375px;
+top:325px;
+
+
+}
+.five{
+	position:absolute;
+right:1375px;
+top:365px;
+
+}
+.six{
+	position:absolute;
+right:1375px;
+top:400px;
+
+}
+.block{
+	text-align:right;
+}
+.yi{position:absolute;
+right:265px; bottom:-320px;
+}
+.er{position:absolute;
+right:570px; bottom:-190px;
+
+}
+.san{position:absolute;
+right:745px; bottom:-75px;
+}
+.si{
+	position:absolute;
+right:815px; bottom:-75px;
+}
+.wu{position:absolute;
+right:920px; bottom:-30px;
+}
+.liu{
+	position:absolute;
+right:980px; bottom:0px;
+}
+
