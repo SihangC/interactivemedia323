@@ -194,7 +194,9 @@ body {
 .triangle25 .number{ position:absolute; left:-30px; top:70px;}
 .triangl{ width:100px; height:100px;}
 .number{ display:none;}
-.triangl: .number{ display:block;}
+
+/*.triangl: .number{ display:block;}*/
+
 /****/
 /**.back01{ background:#122c39; position:absolute; height:100%; width:100%;}
 .lighthouse{ width:90px; height:300px; position:absolute; left:200px; top:100px; z-index:6;}
