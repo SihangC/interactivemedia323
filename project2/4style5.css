@@ -1,0 +1,72 @@
+.bag{
+	color: gray; text-align: center; font-family: times; font-size: 30px
+}
+.no{
+	text-align: center;
+}
+.right{
+	position: absolute; left: 370PX; color: NavajoWhite;font-size: 70px; text-align: right;
+}
+.left{ 
+	position: absolute;text-align: right;color: NavajoWhite;font-size: 70px;right: 220PX; bottom: -90PX
+}
+H3{
+	background: NavajoWhite; letter-spacing: 50px;text-align: center;
+}
+.no{
+	position: relative;
+  animation-name: fadeOut;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.left{position: relative;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+.right{
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}

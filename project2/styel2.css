@@ -1,0 +1,10 @@
+
+#no1{
+	position:relative;
+left:-200px; top: 30px; background: red
+}
+#no2{
+	position:absolute;
+left:189px;
+top:115px
+}

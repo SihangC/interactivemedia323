@@ -1,0 +1,96 @@
+.one{
+	transform: rotate(-80deg);
+	text-align:center;
+	border-top-style:dotted;
+	border-color: gray
+	
+}
+.two{
+	transform: rotate(-70deg);
+	text-align: center;
+
+	
+}
+.three{
+	transform: rotate(-60deg);
+	text-align: center;
+	
+}
+.four{
+	transform: rotate(-50deg);
+	text-align: center;
+	
+}
+.five{
+	transform: rotate(-40deg);
+	text-align: center;
+}
+.six{
+	transform: rotate(-30deg);
+	text-align: center;
+}
+.seven{
+	transform: rotate(-20deg);
+	text-align: center;
+	
+}
+.eight{
+	transform: rotate(-10deg);
+	text-align: center;
+}
+.nine{
+	transform: rotate(0deg);
+	text-align: center;
+	border-top-style:solid;	
+	
+}
+.ten{
+	transform: rotate(-10deg);
+	text-align: center;
+
+	
+}
+.oneone{
+	transform: rotate(-20deg);
+	text-align: center;
+	
+}
+.onetwo{
+	transform: rotate(-30deg);
+	text-align: center;
+	
+}
+.oneseven{
+	transform: rotate(-40deg);
+	text-align: center;
+}
+.onethree{
+	transform: rotate(-50deg);
+	text-align: center;
+	
+}
+.onefour{
+	transform: rotate(-60deg);
+	text-align: center;
+	
+}
+.onefive{
+	transform: rotate(-70deg);
+	text-align: center;
+
+	
+}
+.onesix{
+	transform: rotate(-80deg);
+	text-align: center;
+	border-bottom-style:dotted;
+	border-color: gray
+	
+}
+p{border-right-style:dotted;
+	text-align: center;
+	font-size: 5px
+}
+.word{
+	font-size: 30px
+}

@@ -1,0 +1,183 @@
+* {
+	box-sizing: border-box;
+}
+
+.container{ width:900px; position:relative; height:900px; margin:0 auto; color:#fff; font-size:24px;}
+.triangle01{ position:absolute; left:0; top:0;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #9cabc1;
+    border-right: 180px solid transparent;
+}
+.triangle01 .number{ position:absolute; left:5px; top:-175px;}
+.triangle02{ position:absolute; left:180px; top:0;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f1d0ce;
+    border-left: 180px solid transparent;
+	}
+.triangle02 .number{ position:absolute; left:-20px; top:-175px;}
+.triangle03{ position:absolute; left:360px; top:0;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-left: 180px solid transparent;
+	}
+.triangle03 .number{ position:absolute; left:-20px; top:150px;}
+.triangle04{ position:absolute; left:540px; top:0;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #e4e8eb;
+    border-right: 180px solid transparent;
+	}
+.triangle04 .number{ position:absolute; left:10px; top:150px;}
+.triangle05{ position:absolute; left:720px; top:0;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f3e8e2;
+    border-left: 180px solid transparent;
+}
+.triangle05 .number{ position:absolute; left:-20px; top:-175px;}
+.triangle06{ position:absolute; left:0; top:180px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #e4e8eb;
+    border-left: 180px solid transparent;
+}
+.triangle06 .number{ position:absolute; left:-20px; top:-175px;}
+.triangle07{ position:absolute; left:180px; top:180px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-right: 180px solid transparent;
+}
+.triangle07 .number{ position:absolute; left:10px; top:150px;}
+.triangle08{ position:absolute; left:360px; top:180px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f3e8e2;
+    border-right: 180px solid transparent;
+}
+.triangle08 .number{ position:absolute; left:5px; top:-175px;}
+.triangle09{ position:absolute; left:540px; top:180px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #9cabc1;
+    border-left: 180px solid transparent;
+}
+.triangle09 .number{ position:absolute; left:-20px; top:150px;}
+.triangle10{ position:absolute; left:720px; top:180px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f1d0ce;
+    border-left: 180px solid transparent;
+}
+.triangle10 .number{ position:absolute; left:-30px; top:-175px;}
+.triangle11{ position:absolute; left:0; top:360px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-right: 180px solid transparent;
+}
+.triangle11 .number{ position:absolute; left:10px; top:150px;}
+.triangle12{ position:absolute; left:180px; top:360px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f1d0ce;
+    border-right: 180px solid transparent;
+}
+.triangle12 .number{ position:absolute; left:5px; top:-175px;}
+.triangle13{ position:absolute; left:360px; top:360px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #e4e8eb;
+    border-right: 180px solid transparent;
+}
+.triangle13 .number{ position:absolute; left:10px; top:150px;}
+.triangle14{ position:absolute; left:540px; top:360px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f3e8e2;
+    border-left: 180px solid transparent;
+}
+.triangle14 .number{ position:absolute; left:-30px; top:-175px;}
+.triangle15{ position:absolute; left:720px; top:360px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-right: 180px solid transparent;
+}
+.triangle15 .number{ position:absolute; left:10px; top:150px;}
+.triangle16{ position:absolute; left:0; top:540px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-right: 180px solid transparent;
+}
+.triangle16 .number{ position:absolute; left:10px; top:150px;}
+.triangle17{ position:absolute; left:180px; top:540px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f3e8e2;
+    border-left: 180px solid transparent;
+}
+.triangle17 .number{ position:absolute; left:-30px; top:-175px;}
+.triangle18{ position:absolute; left:360px; top:540px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #f1d0ce;
+    border-left: 180px solid transparent;
+}
+.triangle18 .number{ position:absolute; left:-30px; top:150px;}
+.triangle19{ position:absolute; left:540px; top:540px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #e4e8eb;
+    border-right: 180px solid transparent;
+}
+.triangle19 .number{ position:absolute; left:5px; top:-175px;}
+.triangle20{ position:absolute; left:720px; top:540px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #9cabc1;
+    border-right: 180px solid transparent;
+}
+.triangle20 .number{ position:absolute; left:10px; top:150px;}
+.triangle21{ position:absolute; left:0; top:720px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f1d0ce;
+    border-left: 180px solid transparent;
+}
+.triangle21 .number{ position:absolute; left:-30px; top:-175px;}
+.triangle22{ position:absolute; left:180px; top:720px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #9cabc1;
+    border-left: 180px solid transparent;
+}
+.triangle22 .number{ position:absolute; left:-30px; top:-175px;}
+.triangle23{ position:absolute; left:360px; top:720px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #c8d1dc;
+    border-right: 180px solid transparent;
+}
+.triangle23 .number{ position:absolute; left:10px; top:150px;}
+.triangle24{ position:absolute; left:540px; top:720px;
+    width: 0;
+    height: 0;
+    border-top: 180px solid #f3e8e2;
+    border-right: 180px solid transparent;
+}
+.triangle24 .number{ position:absolute; left:5px; top:-175px;}
+.triangle25{ position:absolute; left:720px; top:720px;
+    width: 0;
+    height: 0;
+    border-bottom: 180px solid #e4e8eb;
+    border-left: 180px solid transparent;
+}
+.triangle25 .number{ position:absolute; left:-30px; top:150px;}
+.triangl{ width:180px; height:180px;}
+.number{ display:none;}
+.triangl:hover .number{ display:block;}
