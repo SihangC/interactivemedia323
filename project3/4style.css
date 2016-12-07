@@ -1,0 +1,31 @@
+.container{ 
+	width:1200px; position:relative; height:900px; margin:0 auto
+}
+body{
+	background: black
+}
+.black{
+	width: 450px; height: 900px; background: black;position: relative;
+}
+.blackone{width: 45px; height: 60px; background: black;position: absolute; transform: translateY(-800%) translateX(1000%)
+
+}
+.white{
+	width: 45px; height: 60px; background:white;position:absolute;transform: translateY(-800%)translateX(900%)}
+.whiteone{
+	width: 700px; height: 900px; background: white;position:absolute;transform: translateX(50%)translateY(0%)
+}
+.textone{color: white;transform: translateY(-1150%) translateX(70%);
+	position: absolute;font-family: Papyrus;font-size:25px
+}
+.texttwo{
+	color: black;transform: translateY(-1700%) translateX(195%);
+	position: absolute;font-family:Mongolian Baiti;font-size:25px
+}
+h3{ font-family: Papyrus;font-size:70px;
+	color: white;position: absolute;transform: translateX(-50%)translateY(-500%)rotate(-90deg);
+}
+h4{font-family: Mongolian Baiti;font-size:70px;
+	color: black;position: absolute;transform: translateX(550%)translateY(-770%)rotate(-90deg);
+
+}

@@ -1,0 +1,18 @@
+.container{ 
+	width:900px; position:relative; height:900px; margin:0 auto
+}
+body{
+	background:-moz-linear-gradient(top,#F5F5DC,#000000);
+	}
+p{
+	text-align:center; font-family: Papyrus; font-size: 40px; transform: translateY(50%)
+}
+strong{
+	font-size: 60px; color: red
+}
+a{
+	text-decoration: none
+}
+
+
+
