@@ -1,0 +1,43 @@
+.container{ 
+	width:900px; position:relative; height:900px; margin:0 auto
+}
+body{
+	background:-moz-linear-gradient(top,#F5F5DC,#000000);
+	}
+p{
+	text-align:center; font-family: Papyrus; font-size: 40px; transform: translateY(0%)
+}
+strong{
+	font-size: 60px; color: red
+}
+a{
+	text-decoration: none
+}
+.plane:hover
+
+.swing {
+  transform-origin: top center;
+  animation-name: swing;
+}
+.plane{font-family: Papyrus; 
+
+}
+.bomb{
+	color: black;font-family: Papyrus; font-size: 16px;
+	position: absolute; transform: translateX(100%)translateY(-40%)
+}
+.bombtwo{
+	color: black;font-family: Papyrus; font-size: 30px;
+	position: absolute; transform: translateX(400%)translateY(-65%)
+}
+.bombthree{
+	color: black;font-family: Papyrus; font-size: 10px;
+	position: absolute; transform: translateX(2300%)translateY(-20%)
+}
+.bombfour{
+	color: black;font-family: Papyrus; font-size: 20px;
+	position: absolute; transform: translateX(1050%)translateY(-70%)
+}
+.text{
+	color: white;font-family: Papyrus; transform: translateY(120%);
+}

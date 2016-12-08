@@ -1,0 +1,12 @@
+.container{ 
+	width:900px; position:relative; height:900px; margin:0 auto
+}
+p{
+	text-align:center; font-family: Kalinga; font-size: 60px; transform: translateY(50%);color:#F5F5DC
+}
+strong{
+	font-size: 90px; color: red
+}
+a{
+	text-decoration: none;color:#F5F5DC
+}

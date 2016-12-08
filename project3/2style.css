@@ -1,0 +1,40 @@
+.container{ 
+	width:900px; position:relative; height:900px; margin:0 auto
+}
+body{
+	background:-moz-linear-gradient(top,#FFD700,#FFB6C1,#00FFFF,#6495ED);
+}
+p{
+	text-align:center; font-family: Mongolian Baiti; font-size: 60px; transform: translateY(70%);color: white
+}
+strong{
+	font-size: 90px; color: red
+}
+a{
+	text-decoration: none;
+}
+div{text-align:center;
+	font-family: Kokila;
+	 font-size: 60px;
+	animation-name:pulse;
+  animation-duration: 40s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(2, 2, 2);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}

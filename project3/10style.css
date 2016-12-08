@@ -1,0 +1,61 @@
+.container{ 
+	width:900px; position:relative; height:900px; margin:0 auto
+}
+body{
+	background:-moz-linear-gradient(top,#FFD700,#FFB6C1,#00FFFF,#6495ED);
+}
+.rainbow{
+	text-align: center;font-size: 40px;font-family: Mongolian Baiti;
+}
+strong{
+	font-size: 90px; color: red
+}
+a{
+	text-decoration: none;
+}
+.love{
+	text-align: center;font-size: 30px;font-family: Mongolian Baiti;color: white;
+}
+.right{text-align: center;font-size: 40px;font-family: Mongolian Baiti;color: white
+
+}
+.aaa{
+  text-align: center;font-size: 60px;font-family: Mongolian Baiti;color: white;
+    animation-name:wooble;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes wobble {
+  from {
+    transform: none;
+  }
+
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.wobble {
+  animation-name: wobble;
+
